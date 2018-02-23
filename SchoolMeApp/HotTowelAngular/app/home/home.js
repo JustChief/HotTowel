@@ -1,9 +1,9 @@
 ﻿(function () {
     'use strict';
     var controllerId = 'home';
-    angular.module('app').controller(controllerId, ['common', '$uibModal', '$uibModalInstance', home]);
+    angular.module('app').controller(controllerId, ['common', home]); //'$uibModal', '$uibModalInstance',
 
-    function home(common, $uibModal, $uibModalInstance) {
+    function home(common) { //$uibModal, $uibModalInstance
         var getLogFn = common.logger.getLogFn;
         var log = getLogFn(controllerId);
 
@@ -18,7 +18,7 @@
         }
 
         $("#register").click(function () {
-            var modalInstance = $uibModal.open({
+    /*        var modalInstance = $uibModal.open({
                 templateUrl: 'http://awsschoolmeappv2.us-east-1.elasticbeanstalk.com/app/home/modals/checkUser.html',
                 controller: 'checkUser as vm',
                 size: 'lg',
@@ -29,7 +29,7 @@
 
             }, function () {
                 log("Modal Dismissed");
-            });
+            }); */
 
         });
 
