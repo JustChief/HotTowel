@@ -190,7 +190,7 @@
                 'rightText': '@',
                 'allowCollapse': '@'
             },
-            templateUrl: 'HotTowel/SchoolMeApp/HotTowelAngular/app/layout/widgetheader.html',
+            templateUrl: 'SchoolMeApp/HotTowelAngular/app/layout/widgetheader.html',
             restrict: 'A',
         };
         return directive;
