@@ -2,7 +2,7 @@
     'use strict';
 
     var app = angular.module('app');
-    var appRoot = "https://justchief.github.io/HotTowel/SchoolMeApp/HotTowelAngular/app";
+    var appRoot = "https://justchief.github.io/HotTowel";
 
     // Collect the routes
     app.constant('routes', getRoutes());
