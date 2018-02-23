@@ -23,7 +23,7 @@
             {
                 url: '/',
                 config: {
-                    templateUrl: appRoot + 'app/home/home.html',
+                    templateUrl: appRoot + 'SchoolMeApp/HotTowelAngular/app/home/home.html',
                     title: 'home',
                     settings: {
                         nav: 1,
@@ -33,7 +33,7 @@
             }, {
                 url: '/dashboard',
                 config: {
-                    templateUrl: appRoot + 'app/dashboard/dashboard.html',
+                    templateUrl: appRoot + 'SchoolMeApp/HotTowelAngular/app/dashboard/dashboard.html',
                     title: 'dashboard',
                     settings: {
                         nav: 2,
@@ -44,7 +44,7 @@
                 url: '/admin',
                 config: {
                     title: 'admin',
-                    templateUrl: appRoot + 'app/admin/admin.html',
+                    templateUrl: appRoot + 'SchoolMeApp/HotTowelAngular/app/admin/admin.html',
                     settings: {
                         nav: 3,
                         content: '<i class="fa fa-lock"></i> Admin'
@@ -54,7 +54,7 @@
                 url: '/teachers',
                 config: {
                     title: 'teachers',
-                    templateUrl: appRoot + 'app/Teachers/teachers.html',
+                    templateUrl: appRoot + 'SchoolMeApp/HotTowelAngular/app/Teachers/teachers.html',
                     settings: {
                         nav: 4,
                         content: '<i class="fa fa-user"></i> Teachers'
