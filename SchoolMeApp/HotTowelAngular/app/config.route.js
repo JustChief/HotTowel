@@ -23,7 +23,7 @@
             {
                 url: '/',
                 config: {
-                    templateUrl: appRoot, //+ 'SchoolMeApp/HotTowelAngular/app/home/home.html',
+                    templateUrl: appRoot + 'SchoolMeApp/HotTowelAngular/app/home/home.html',
                     title: 'home',
                     settings: {
                         nav: 1,
