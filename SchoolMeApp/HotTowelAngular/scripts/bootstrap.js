@@ -1101,7 +1101,7 @@ var Collapse = function ($) {
 
       if (this._isTransitioning) {
         //Not sure why this was returning an error
-        //throw new Error('Collapse is transitioning');
+        throw new Error('Collapse is transitioning');
       }
 
       if ($(this._element).hasClass(ClassName.SHOW)) {
