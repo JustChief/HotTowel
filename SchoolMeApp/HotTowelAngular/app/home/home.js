@@ -8,7 +8,7 @@
         var log = getLogFn(controllerId);
 
         var vm = this;
-        vm.title = 'My Home, This means it worked, For real this time';
+        vm.title = 'Home';
 
         activate();
 
