@@ -1100,7 +1100,8 @@ var Collapse = function ($) {
       var _this6 = this;
 
       if (this._isTransitioning) {
-        throw new Error('Collapse is transitioning');
+        //Not sure why this was returning an error
+        //throw new Error('Collapse is transitioning');
       }
 
       if ($(this._element).hasClass(ClassName.SHOW)) {
